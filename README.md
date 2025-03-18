@@ -1,48 +1,52 @@
-# 📌 Python Assignments Repository
 
-Welcome to the **PYTHON-ASSIGNMENTS** repository! 🚀 This repository contains Python assignments from **Week 1** and will be updated with more assignments as we continue studying Python at **PLP**.
 
----
+# **Week 1 Assignment - Basic Calculator 🖥️➕➖✖️➗**  
 
-## 📂 Week 1 Assignments
+### **Instructions**  
+Create a simple Python program that:  
+1. Asks the user to **input two numbers**.  
+2. Asks the user to **input a mathematical operation** (`+`, `-`, `*`, `/`).  
+3. **Performs the selected operation** and prints the result.  
 
-### 📝 Assignment Descriptions
-This repository currently contains the **Week 1 assignments**, focusing on fundamental Python concepts such as:
-- Variables and Data Types
-- User Input and Output
-- Basic Control Flow (if statements, loops)
-- Functions and Simple Calculations
-
-More assignments will be added weekly as the course progresses.
-
----
-
-## 🚀 How to Contribute
-1. **Fork** the repository.
-2. **Clone** your fork:
-   ```bash
-   git clone https://github.com/your-username/PYTHON-ASSIGNMENTS.git
-   ```
-3. **Make changes** and commit:
-   ```bash
-   git add .
-   git commit -m "Added new assignment"
-   ```
-4. **Push** the changes:
-   ```bash
-   git push origin main
-   ```
-5. Create a **Pull Request** (PR) for review.
+### **Example Usage**  
+If a user inputs:  
+```
+Number 1: 10  
+Number 2: 5  
+Operation: +  
+```
+The program should display:  
+```
+10 + 5 = 15
+```
 
 ---
 
-## 📝 License
-This project is open-source and available for learning purposes.
+### **Implementation Details**  
+✔️ Accepts user input for **two numbers and an operator**.  
+✔️ Performs **addition, subtraction, multiplication, or division** based on the input.  
+✔️ Displays the **calculated result** in the console.  
+✔️ **Handles errors** (e.g., division by zero, invalid input).  
 
----
+### **Enhancements (Additional Feature)**  
+📌 The program was extended to include a **Graphical User Interface (GUI)** using **Tkinter**, allowing users to interact with buttons instead of typing commands.  
 
-## 📞 Contact
-For any queries, feel free to reach out:
-📧 Email: magachi.emmanuel@students.jkuat.ac.ke
-💻 GitHub: https://github.com/Student1User
+### **How to Run the Code**  
+1. Ensure Python is installed on your system.  
+2. Run the script using:  
+   ```sh
+   python week1_calculator.py
+   ```  
+
+### **Expected Output**  
+- If valid numbers and operations are entered, the result is displayed.  
+- If a user enters **non-numeric values**, an error message appears.  
+- **Division by zero** is prevented with an error alert.  
+
+### **Learning Outcomes**  
+📌 Understanding **basic user input handling** in Python.  
+📌 Implementing **arithmetic operations** using conditional statements.  
+📌 Using **exception handling** (`try-except`) for error management.  
+📌 (Optional) Exploring **Tkinter** for GUI-based applications.  
+
 
